@@ -5,77 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Úvodní stránka</title>
     <link rel="stylesheet" href="css/uvodni.css">
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/footers.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-   <header>
-    <h1>Programy a data</h1>
-    <p>Úvodní stránka</p>
-   </header>
+
+    <!-- NAVBAR TOP -->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4 headertext">Programy a data</span>
+        </a>
+        
+        <ul class="nav nav-pills navbar headermenu">
+          <li class="nav-item nav-item1"><a href="index.html" class="nav-link active" aria-current="page">Úvodní stránka</a></li>
+          <li class="nav-item"><a href="./01/index.html" class="nav-link">Programové soubory</a></li>
+          <li class="nav-item"><a href="./02/index.html" class="nav-link">Operační systémy</a></li>
+          <li class="nav-item ovladace"><a href="./03/index.html" class="nav-link">Ovladače</a></li>
+        </ul>   
+      </header>
+      <!-- NAVBAR TOP -->
+
    <main>
-    <h2>Obsah</h2>  
-    <div class="flex-container">
-        <div>
-            <h3 id="programove-soubory"><a href="./01/index.html">Programové a datové soubory.</a></h3>
-            <ul>
-                <li><a href="./01/index.html#soubory-a-adresare">Soubory a adresáře</a></li>
-                <li><a href="./01/index.html#programove-soubory">Programové soubory</a></li>
-                <li><a href="./01/index.html#datove-soubory">Datové soubory</a></li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                <h3>Lorem ipsum dolor sit.</h3>
-                <ul>
-                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
-                    <li><a href="">Quos eos aut molestiae laboriosam.</a></li>
-                    <li><a href="">Enim laboriosam recusandae fugit perferendis.</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Qui cupiditate vel odio?</h3>
-                <ul>
-                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
-                    <li><a href="">Id aliquam enim doloribus nulla.</a></li>
-                    <li><a href="">Amet dolorum aperiam libero praesentium?</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Nesciunt magni consequuntur maiores.</h3>
-                <ul>
-                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
-                    <li><a href="">Nisi cum voluptates nulla necessitatibus.</a></li>
-                    <li><a href="">Sunt nobis veritatis incidunt corrupti.</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Architecto dignissimos ex dolore.</h3>
-                <ul>
-                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
-                    <li><a href="">Itaque officia corporis magni et!</a></li>
-                    <li><a href="">Inventore, eum! Nihil, et aliquid.</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Quis iste magnam quisquam!</h3>
-                <ul>
-                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
-                    <li><a href="">Excepturi expedita alias dolor obcaecati!</a></li>
-                    <li><a href="">Possimus nam earum suscipit nesciunt?</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Amet illum tenetur ipsam.</h3>
-                <ul>
-                    <li><a href="">Lorem ipsum dolor sit amet.</a></li>
-                    <li><a href="">Optio porro ullam et earum!</a></li>
-                    <li><a href="">Nisi adipisci temporibus atque eaque?</a></li>
-                </ul>
-            </div> 
-        </div>
+    <h1>Programy a data</h1>
+    <br>
+    <p>Úvodní stránka</p>
+    <hr>
+    <h2>Obsah stránek</h2>  
+    <br>
+
+    <img src="./img/obsah.jpg" alt="Obrázek stránky" class="obsah">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-down arrow" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+      </svg> -->
+    
+
+    <div class="mainpage">
+        <a href="./01/index.html" class="styled-link"><h5>Programové a datové soubory</h5></a>
+        <p class="pUnderText">Informace o souborech a adresářích, programových souborech, knihovnách a datových souborech</p>
+        <br>
+        <a href="./02/index.html" class="styled-link"><h5>Operační systémy</h5></a>
+        <p class="pUnderText">Vše potřebné k operačním systémům</p>
+        <br>
+        <a href="./03/index.html" class="styled-link"><h5>Ovladače</h5></a>
+        <p class="pUnderText">Dozvíte se o ovladačích, firmware a utilitách</p>
     </div>
-    <footer>
-        <p>&copy; 2024, autor: <b><i>Viktor Bureš</i></b></p>
-    </footer>
+    
+    
+
    </main>
+
+
+   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end footermenu">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary uvodnifooter">Úvodní stránka</a></li>
+      <li class="nav-item"><a href="./01/index.html" class="nav-link px-2 text-body-secondary">Programové soubory</a></li>
+      <li class="nav-item"><a href="./02/index.html" class="nav-link px-2 text-body-secondary">Operační systémy</a></li>
+      <li class="nav-item"><a href="./03/index.html" class="nav-link px-2 text-body-secondary ovladacefooter">Ovladače</a></li>
+    </ul>
+  </footer>
+
+   <footer>
+        
+        
+    </footer>
 </body>
 </html>

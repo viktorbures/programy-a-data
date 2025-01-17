@@ -5,25 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01 - Programové a datové soubory</title>
     <link rel="stylesheet" href="../css/files.css">
+    <link rel="stylesheet" href="../css/footers.css">
+    <link rel="stylesheet" href="../css/headers.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <header>  
-        <h1>Programové a datové soubory</h1>
-        <ul>
-            <li>
-                <strong><a href="../index.html">Úvodní stránka</a></strong>
-            </li>
-            <li>
-                <a href="/02/index.html">Operační systémy</a>
-            </li>
-            <li>
-                <a href="/03/index.html"> Ovladače, firmware a utility</a>
-            </li>
-        </ul>
-        <hr>
-    </header>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4 headertext">Programy a data</span>
+            </a>
+            
+            <ul class="nav nav-pills navbar headermenu">
+              <li class="nav-item nav-item1 uvodnistranka"><a href="../index.html" class="nav-link active uvodnistranka" aria-current="page">Úvodní stránka</a></li>
+              <li class="nav-item programovesoubory"><a href="../01/index.html" class="nav-link">Programové soubory</a></li>
+              <li class="nav-item"><a href="../02/index.html" class="nav-link">Operační systémy</a></li>
+              <li class="nav-item ovladace"><a href="../03/index.html" class="nav-link">Ovladače</a></li>
+            </ul>   
+        </header>
     <main> 
         <h2 id="soubory-a-adresare">Soubory a adresáře</h2>
+
+        <img src="../img/files.jpg" alt="Soubory" class="soubory">
+
+        <h5 id="soubory">Soubory</h5>
         <p><strong>Soubor</strong> <em>(file)</em> je množina souvisejících dat uložených na diskové jed
         notce. Název souboru je obvykle tvořen jménem (ve Windows až 254 
         znaků) a příponou, která naznačuje typ souboru. K&nbsp; dalším vlastnos
@@ -32,18 +37,20 @@
         <p>K přehlednější práci se soubory slouží systém adresářů či složek (di
         rectories, folders). Adresáře tvoří na disku typicky hierarchickou struk
         turu (tree - strom); základem je tzv. kořenový adresář (root) označený 
-        symbolem <mark><code>„/“</code></mark> (Unix, Linux), nebo <mark><code>„\“</code></mark>(Windows). Každý adresář může 
+        symbolem <code>„/“</code> (Unix, Linux), nebo <code>„\“ </code>(Windows). Každý adresář může 
         obsahovat soubory i podadresáře (subdirectories). </p>
 
-        <h3>Cesta</h3>
+       
+
+        <h5>Cesta</h5>
         <p><strong>Cesta</strong> <em>(path) </em>vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe.</code> 
         Pro operace se soubory využíváme někdy zástupné znaky (wildcards):</p>
         <ul>
-            <li>symbol <mark>*</mark> nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
-            <li>symbol <mark>?</mark> nahrazuje jeden libovolný znak (např. s?s.txt).</li>
+            <li>symbol * nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
+            <li>symbol ? nahrazuje jeden libovolný znak (např. s?s.txt).</li>
         </ul>
 
-        <h3 id="programove-soubory">Programové soubory</h3>
+        <h5 id="programove-soubory">Programové soubory</h5>
         <p><strong>Programové soubory</strong> obsahují instrukce, podle nichž procesor ve 
         spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. 
         Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve 
@@ -51,7 +58,7 @@
         soubory můžeme zařadit také skripty, soubory instrukcí v textové po
         době, které ke svému spuštění vyžadují speciální program - interpret.</p>
 
-        <h3>Knihovny</h3>
+        <h5>Knihovny</h5>
         <p>Větší programy jsou tvořeny <strong>programovými knihovnami</strong> (runtime libraries), 
         speciálními soubory s připravenými funkcemi, které programy využívají pro 
         svůj běh. Ve <i>Windows</i> to jsou např. soubory DRV a SYS (obsahující zejména 
@@ -65,7 +72,7 @@
         ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému 
         (např. antivirové programy).</p>
 
-        <h3 id="datove-soubory">Datové soubory</h3>
+        <h5 id="datove-soubory">Datové soubory</h5>
         <p> <strong>Datové soubory</strong> obsahují data různého charakteru (číselné, textové, 
         grafické, zvukové údaje). K jejich zpracování se používají konkrétní 
         programy, a proto jsou často přípony těchto datových souborů aso
@@ -75,11 +82,26 @@
 
 
     </main> 
-    <footer>
-        <hr>
-        <p> &copy; 2024 - <b>Viktor Bureš</b>, <i>IT1</i> &#x263A; </p>
-        <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
-    </footer>
+    
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end footermenu">
+          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary uvodnifooter">Úvodní stránka</a></li>
+          <li class="nav-item"><a href="../01/index.html" class="nav-link px-2 text-body-secondary">Programové soubory</a></li>
+          <li class="nav-item"><a href="../02/index.html" class="nav-link px-2 text-body-secondary">Operační systémy</a></li>
+          <li class="nav-item"><a href="../03/index.html" class="nav-link px-2 text-body-secondary ovladacefooter">Ovladače</a></li>
+        </ul>
+      </footer>
+    
+       <footer>
+            
+            
+        </footer>
 
 
 </body>

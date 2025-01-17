@@ -1,0 +1,27 @@
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footername {
+    margin-left: -150px;
+}
+
+.uvodnifooter {
+    margin-left: -100px;
+}
+
+footer img {
+    width: 200px;
+    margin-right: 450px;
+    margin-top: 5px;
+}
+
+footer {
+    max-width: 1400px;
+    margin: auto;
+    
+    padding: 20px 40px;
+    
+    text-align: center;
+}
