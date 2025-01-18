@@ -4,29 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>02 - Operační systémy</title>
+    <link rel="stylesheet" href="../css/os.css">
+    <link rel="stylesheet" href="../css/headers.css">
+    <link rel="stylesheet" href="../css/footers.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <header> 
-        <h1>Operační systémy</h1>
-        <p><img src="../img/grussman.png" alt="Fotka Grussmana"> <img src="../img/linux.png" alt="Linux"> <img src="../img/windows.png" alt="Windows"></p>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4 headertext">Programy a data</span>
+        </a>
         
-        
-        <hr>
-        <ul>
-            <li>
-                <strong><a href="../index.html">Úvodní stránka</a></strong>
-            </li>
-            <li>
-                <a href="/01/index.html">Programové a datové soubory</a>
-            </li>
-            <li>
-                <a href="/03/index.html">Ovladače, firmware a utility</a>	
-            </li>
-        </ul>
-        <hr>
-    </header>
+        <ul class="nav nav-pills navbar headermenu">
+          <li class="nav-item nav-item1"><a href="index.html" class="nav-link active uvodnistranka" aria-current="page">Úvodní stránka</a></li>
+          <li class="nav-item"><a href="../01/index.html" class="nav-link">Programové soubory</a></li>
+          <li class="nav-item"><a href="../02/index.html" class="nav-link operacnisystemy text-decoration-underline">Operační systémy</a></li>
+          <li class="nav-item ovladace"><a href="../03/index.html" class="nav-link">Ovladače</a></li>
+        </ul>   
+      </header>
 
-    <h3>Programové vybavení</h3>
+    <main>
+    
+    <h2 id="operacnisystemy">Operační systémy</h2>
+
+    <img src="../img/os.jpg" alt="Operační systémy" class="osimg">
+
+
+    <h5>Programové vybavení</h5>
     <p>
         <strong>Programové vybavení</strong> <i>(software)</i> je podmínkou využití technického vybavení 
         (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro 
@@ -36,9 +41,9 @@
         aplikací, tj. programů určených pro konkrétní účely.
     </p>
 
-    <h3>
+    <h5>
         Základní vybavení
-    </h3>
+    </h5>
     <p>
         Základním programovým vybavením počítačů (a jim podobných zaří
         zení) jsou operační systémy (OS - Operation System). Jejich nejdůle
@@ -49,7 +54,7 @@
         technické vybavení běžícím procesům.
     </p>
 
-    <h3>Rozhraní</h3>
+    <h5>Rozhraní</h5>
     <p>
         Nezbytnou součástí operačních systémů je aplikační rozhraní (API - 
         Application Programming Interface), které nabízí programátorům 
@@ -75,7 +80,7 @@
         ních počítačích v domácnostech i kancelářích, různé linuxové distribuce  
         jsou velmi často instalovány na síťových serverech.</i> </p>
         
-        <h3>Dělení</h3>
+        <h5>Dělení</h5>
         <p>
             Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou urče
         ny. Existují  systémy pro síťové servery (např. MS Windows 2012 Server, Li
@@ -89,6 +94,23 @@
         provádět paralelně jiné operace, v případě RTOS je nezbytné provádět opera
         ce bez prodlevy a s vysokou spolehlivostí v reálném čase
         </p>
+
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end footermenu">
+          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary uvodnifooter">Úvodní stránka</a></li>
+          <li class="nav-item"><a href="../01/index.html" class="nav-link px-2 text-body-secondary">Programové soubory</a></li>
+          <li class="nav-item"><a href="../02/index.html" class="nav-link px-2 text-body-secondary">Operační systémy</a></li>
+          <li class="nav-item"><a href="../03/index.html" class="nav-link px-2 text-body-secondary ovladacefooter">Ovladače</a></li>
+        </ul>
+    </footer>
    
 </body>
 </html>

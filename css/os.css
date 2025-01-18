@@ -11,21 +11,12 @@ main {
     text-align: center;
 }
 
-.programovesoubory {
-    text-decoration: underline;
-}
-
 .uvodnistranka {
     text-decoration: none !important;
 }
 
-.soubory {
-    margin: 20px 0;
+.osimg {
     width: 750px;
     border: 1px solid gray;
-}
-
-
-ul li {
-    list-style-type: none;
+    margin: 20px 0;
 }
