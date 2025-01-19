@@ -1,0 +1,27 @@
+body {
+    background-color: lightgray;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border: 3px solid black;
+    
+}
+
+#instalaceprogramu {
+    margin-left: 39%;
+}
+
+.instalacejpg {
+    width: 750px;
+    margin: 20px 0;
+    border: 1px solid gray;
+    margin-left: 280px;
+}
+
+ul li {
+    list-style-type: none;
+}

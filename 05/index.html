@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 - Instalace programů</title>
+    <link rel="stylesheet" href="./instalace.css">
+    <link rel="stylesheet" href="../css/headers.css">
+    <link rel="stylesheet" href="../css/footers.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4 headertext">Programy a data</span>
+        </a>
+        
+        <ul class="nav nav-pills navbar headermenu">
+          <li class="nav-item nav-item1"><a href="../index.html" class="nav-link active uvodniheader text-decoration-none" aria-current="page">Úvodní stránka</a></li>
+          <li class="nav-item"><a href="../01/index.html" class="nav-link">Programové soubory</a></li>
+          <li class="nav-item"><a href="../02/index.html" class="nav-link">Operační systémy</a></li>
+          <li class="nav-item ovladace"><a href="../03/index.html" class="nav-link">Ovladače</a></li>
+          <li class="nav-item ovladace"><a href="../04/index.html" class="nav-link">Aplikační software</a></li>
+          <li class="nav-item ovladace"><a href="../05/index.html" class="nav-link text-decoration-underline">Instalace</a></li>
+          <li class="nav-item ovladace"><a href="../06/index.html" class="nav-link">Licence</a></li>
+          <li class="nav-item ovladace"><a href="../07/index.html" class="nav-link">Software</a></li>
+          <li class="nav-item ovladace"><a href="../08/index.html" class="nav-link">Emulace</a></li>
+          <li class="nav-item ovladace"><a href="../09/index.html" class="nav-link navbartop9">Cloud</a></li>
+        </ul>   
+      </header>
+
+  <main>
+    <h2 id="instalaceprogramu">Instalace programů</h2>
+
+    <img src="../img/instalace.jpg" alt="Instalace programů" class="instalacejpg">
+
+    
+    <h5> Instalace programu </h5>
+    <p>Program, který si koupíme, dostaneme na CD/DVD dis
+        ku, nebo si ho stáhneme z Internetu. Po vložení instalačního CD/DVD disku se 
+        většinou okamžitě spustí instalační program (díky souboru autorun.inf), v pří
+        padě softwaru staženého z Internetu musíme instalační program spustit sami 
+        (ve Windows nejčastěji poklepáním na soubory install.exe či setup.exe). Prů
+        vodce instalací (wizzard) si často vyžádá sériové číslo a souhlas s licenčními 
+        podmínkami, zeptá se, kam (do jaké složky na disku) se má program uložit a 
+        kam se má umístit zástupce programu, případně žádá další informace. Potom 
+        instalační program nahraje všechny soubory, ze kterých se program skládá, na 
+        pevný disk počítače, provede nutnou konfiguraci (v systémovém registru Win
+        dows, konfiguračních souborech) a nakonec vytvoří zástupce programu pro 
+        jeho snadné spuštění. K instalaci většiny programů je nutné mít práva správce.</p>
+
+    <h5> Odinstalace programu</h5>
+    <p>Úplné odebrání programu bývá paradoxně často 
+        složitější, zvláště v systémech Windows. Při instalaci si program nahraje své 
+        komponenty do mnoha složek včetně systémových, sdílí některé soubory s 
+        jinými programy (dynamické knihovny DLL), vytvoří záznamy v tzv. registru, 
+        při svém běhu vytváří pomocné soubory. Program, zajišťující odinstalování 
+        aplikace, často neví přesně, kde všude jsou programové soubory uložené a 
+        všechny je nesmaže. V řadě případů tak dochází k hromadění zbytečných a 
+        nepoužívaných souborů. Pro jejich odstranění lze používat některé speciální 
+        utility – např. RegCleaner (program pro čištění registrů). Při podobných ope
+        racích je však nutné postupovat velmi obezřetně, aby nedošlo k odstranění 
+        některé důležité součásti systému nebo používaného programu! V linuxových 
+        systémech je lépe vyřešeno oddělení systémových a uživatelských souborů, 
+        úplné odstranění nepotřebného programu je proto pravděpodobnější.</p>
+
+    <h5>Lokalizace</h5>
+    <p>Lokalizace je překlad programu, v našem případě do češtiny. 
+        Většina významných softwarových firem pochází z anglicky mluvících zemí a 
+        originály programů tedy existují v angličtině. Dnes je však zcela běžné, že tyto 
+        firmy mají místní zastoupení, která zajišťují prodej programů, ale také je před 
+        prodejem lokalizují - převedou do češtiny. Lokalizace je drahá a časově nároč
+        ná činnost, protože se musí přeložit nejen volby nabídek a obsah dialogových 
+        oken, ale také nápověda k programu a návod k programu (manuál), případně 
+        vytvořit dělicí slovník pro české dělení slov a český korektor pravopisu.</p>
+    
+      <h5> Platforma a kompatibilita</h5>
+      <p> V souvislosti s určitým typem OS i typem proce
+        soru používáme pojem platforma - např. Windows, Linux, OS X. Používaný 
+        program musí být určen pro operační systém, který je na počítači nainstalo
+        ván; pod jiným systémem většinou nepracuje (např. program určený pro MS  Windows nebude pracovat pod Linuxem a naopak). Mnoho programů, zvláš
+        tě z oblasti svobodného software (free software), má proto verze určené pro 
+        několik operačních systémů – jsou multiplatformní. Problémy se spuštěním 
+        programu však mohou nastat i na jedné platformě v souvislosti s různými ver
+        zemi OS i rozdíly mezi 32bitovými a 64bitovými systémy (například nový pro
+        gram určený pro MS Windows může spolehlivě fungovat v novějších verzích 
+        Windows, ale nemusí pracovat pod starší verzí stejného OS). Při pořizování 
+        programu si proto vždy musíme ověřit, zda je kompatibilní (ve funkční shodě) 
+        s námi používaným operačním systémem. V nových systémech Windows je 
+        v případě problémů možné využít nastavení na kartě Kompatibilita, která je 
+        součástí panelu Vlastnosti pro zástupce dané aplikace. </p>
+      
+      <h5>Verze programů</h5>
+      <p>U počítačových programů je důležitá jeho verze, která se 
+        označuje číslem za názvem programu. Nový program může být například 
+        označen jako verze 1.0. Některé dodatečně zjištěné dílčí nedostatky nebo bez
+        pečnostní problémy řeší aktualizace programu (dnes nejčastěji přes Internet),  
+        update. Aktualizace jsou zakázníkům, kteří si zakoupili určitou verzi programu, 
+        obvykle poskytovány bezplatně. Pro přehlednost jsou označovány buď datem 
+        vydání, nebo symbolickým číselným vyjádřením podverze – např. 1.1 nebo 
+        1.23 apod. Povýšení na novou verzi (např. 2.0), upgrade, přináší významnější 
+        změny ve vývoji programu a v případě komerčního software je třeba vyšší verzi 
+        znovu zaplatit. Bývá pravidlem, že nové verze mají nové funkce a lepší ovládá
+        ní, ale také vyšší nároky na výkon počítače. Před provedením upgrade je tedy 
+        nutné zjistit doporučenou (případně minimální) konfiguraci počítače, aby bylo 
+        možné program na daném počítači možné vůbec používat. Opačný postup, 
+        tedy použití nižší verze programu (např. kvůli nekompatibilitě s instalovaných 
+        OS nebo nedostatečnou konfigurací počítače), se nazývá downgrade.</p>
+
+      <h5>Registrace programu</h5>
+      <p>Je zaevidování jeho uživatele do databáze výrobce pro
+        gramu. Registrace je nepovinná a přináší většinou několik výhod: <ul>
+            <li> nárok na upgrade programu za sníženou cenu; uživatel se často včas dozví 
+                o časově omezených nabídkách výhodného nákupu upgradu nebo dalších pro
+                gramů od stejné firmy;</li>
+            <li>někteří výrobci programů posílají svým registrovaným uživatelům materiály 
+                (časopisy, prospekty), kde se dozvíte zkušenosti jiných uživatelů s programem, 
+                bývají zde informace o nových verzích programu, případně o vzniklých doplň
+                cích daného programu;</li>
+            <li> u některých programů po registraci vzniká nárok na využití zákaznické linky 
+                v případě potíží s programem.</li>
+        </ul></p>
+
+
+
+
+
+
+
+
+
+      </main>
+
+
+
+      
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
+     
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+        </a>
+        
+        <ul class="nav col-md-4 justify-content-center footermenu">
+          <li class="text-body-secondary uvodnifooter">Programy a data</a></li>
+        </ul>
+      </footer>      
+</body>
+</html>

@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01 - Programové a datové soubory</title>
-    <link rel="stylesheet" href="../css/files.css">
+    <link rel="stylesheet" href="./files.css">
     <link rel="stylesheet" href="../css/footers.css">
     <link rel="stylesheet" href="../css/headers.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-              <span class="fs-4 headertext">Programy a data</span>
-            </a>
-            
-            <ul class="nav nav-pills navbar headermenu">
-              <li class="nav-item nav-item1 uvodnistranka"><a href="../index.html" class="nav-link active uvodnistranka" aria-current="page">Úvodní stránka</a></li>
-              <li class="nav-item programovesoubory"><a href="../01/index.html" class="nav-link">Programové soubory</a></li>
-              <li class="nav-item"><a href="../02/index.html" class="nav-link">Operační systémy</a></li>
-              <li class="nav-item ovladace"><a href="../03/index.html" class="nav-link">Ovladače</a></li>
-            </ul>   
-        </header>
+  
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4 headertext">Programy a data</span>
+    </a>
+    
+    <ul class="nav nav-pills navbar headermenu">
+      <li class="nav-item nav-item1"><a href="../index.html" class="nav-link active uvodniheader text-decoration-none" aria-current="page">Úvodní stránka</a></li>
+      <li class="nav-item"><a href="../01/index.html" class="nav-link text-decoration-underline">Programové soubory</a></li>
+      <li class="nav-item"><a href="../02/index.html" class="nav-link">Operační systémy</a></li>
+      <li class="nav-item ovladace"><a href="../03/index.html" class="nav-link">Ovladače</a></li>
+      <li class="nav-item ovladace"><a href="../04/index.html" class="nav-link">Aplikační software</a></li>
+      <li class="nav-item ovladace"><a href="../05/index.html" class="nav-link">Instalace</a></li>
+      <li class="nav-item ovladace"><a href="../06/index.html" class="nav-link">Licence</a></li>
+      <li class="nav-item ovladace"><a href="../07/index.html" class="nav-link">Software</a></li>
+      <li class="nav-item ovladace"><a href="../08/index.html" class="nav-link">Emulace</a></li>
+      <li class="nav-item ovladace"><a href="../09/index.html" class="nav-link navbartop9">Cloud</a></li>
+    </ul>   
+  </header>
+
     <main> 
         <h2 id="programovesoubory">Programové a datové soubory</h2>
 
         <img src="../img/files.jpg" alt="Soubory" class="soubory">
 
         <h5 id="soubory">Soubory</h5>
-        <p><strong>Soubor</strong> <em>(file)</em> je množina souvisejících dat uložených na diskové jed
+        <p><em>(File)</em> je množina souvisejících dat uložených na diskové jed
         notce. Název souboru je obvykle tvořen jménem (ve Windows až 254 
         znaků) a příponou, která naznačuje typ souboru. K&nbsp; dalším vlastnos
         tem souboru patří jeho velikost, autor (vlastník), datum vytvoření, da
@@ -43,7 +51,7 @@
        
 
         <h5>Cesta</h5>
-        <p><strong>Cesta</strong> <em>(path) </em>vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe.</code> 
+        <p><em>(Path) </em>vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe.</code> 
         Pro operace se soubory využíváme někdy zástupné znaky (wildcards):</p>
         <ul>
             <li>symbol * nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
@@ -51,7 +59,7 @@
         </ul>
 
         <h5 id="programove-soubory">Programové soubory</h5>
-        <p><strong>Programové soubory</strong> obsahují instrukce, podle nichž procesor ve 
+        <p>Obsahují instrukce, podle nichž procesor ve 
         spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. 
         Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve 
         strojovém kódu pro danou platformu), nebo ve zdrojovém kódu, obsahujícím příkazy určitého programovacího jazyka. Mezi programové 
@@ -73,7 +81,7 @@
         (např. antivirové programy).</p>
 
         <h5 id="datove-soubory">Datové soubory</h5>
-        <p> <strong>Datové soubory</strong> obsahují data různého charakteru (číselné, textové, 
+        <p>Obsahují data různého charakteru (číselné, textové, 
         grafické, zvukové údaje). K jejich zpracování se používají konkrétní 
         programy, a proto jsou často přípony těchto datových souborů aso
         ciovány (propojeny) s určitou aplikací (např. DOCX s programem MS 
@@ -82,26 +90,19 @@
 
 
     </main> 
-    
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
-    
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
-        </a>
-    
-        <ul class="nav col-md-4 justify-content-end footermenu">
-          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary uvodnifooter">Úvodní stránka</a></li>
-          <li class="nav-item"><a href="../01/index.html" class="nav-link px-2 text-body-secondary">Programové soubory</a></li>
-          <li class="nav-item"><a href="../02/index.html" class="nav-link px-2 text-body-secondary">Operační systémy</a></li>
-          <li class="nav-item"><a href="../03/index.html" class="nav-link px-2 text-body-secondary ovladacefooter">Ovladače</a></li>
-        </ul>
-      </footer>
-    
-       <footer>
-            
-            
-        </footer>
+
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+   <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
+
+   <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+     <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+   </a>
+   
+   <ul class="nav col-md-4 justify-content-center footermenu">
+     <li class="text-body-secondary uvodnifooter">Programy a data</a></li>
+   </ul>
+ </footer>
 
 
 </body>

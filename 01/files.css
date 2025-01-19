@@ -1,0 +1,33 @@
+body {
+    background-color:lightgray;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border: 3px solid black;
+}
+
+.programovesoubory {
+    text-decoration: underline;
+}
+
+.uvodnistranka {
+    text-decoration: none !important;
+}
+
+#programovesoubory {
+    margin-left: 33%;
+}
+
+.soubory {
+    margin: 20px 290px;
+    width: 750px;
+    border: 1px solid gray;
+}
+
+ul li {
+    list-style-type: none;
+}

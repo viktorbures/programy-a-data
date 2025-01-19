@@ -1,4 +1,4 @@
-.headertext {
+/* .headertext {
     margin-left: 120px;
 }
 
@@ -15,4 +15,35 @@
     background-color: white !important;
     display: inline-block;
     text-decoration: underline;
+} */
+
+header {
+    text-align: center; 
 }
+
+header {
+    max-width: 1400px;
+    margin: auto;
+    
+    padding: 20px 40px;
+    
+    text-align: center;
+}
+
+
+.headertext {
+    margin-left: -90px;
+}
+
+.navbartop9 {
+    margin-right: -50px;
+}
+.nav-link {
+    color: black !important;
+}   
+
+.nav-link.active {
+    background-color: white !important;
+    display: inline-block;
+    text-decoration: underline;
+} 

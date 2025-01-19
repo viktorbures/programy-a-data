@@ -1,1 +1,1 @@
-Opravit top menu - nefunguje když je web víc oddálený
+Opravit top menu - nefunguje když je web víc oddálený // FIXED

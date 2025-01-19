@@ -8,12 +8,15 @@ footer {
 }
 
 .uvodnifooter {
-    margin-left: -100px;
+    margin-right: 900px;
+    white-space: nowrap !important;
+    
+    
 }
 
 footer img {
     width: 200px;
-    margin-right: 450px;
+    margin-left: 1500px;
     margin-top: 5px;
 }
 
