@@ -16,12 +16,24 @@ main {
 }
 
 .instalacejpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 750px;
-    margin: 20px 0;
     border: 1px solid gray;
-    margin-left: 280px;
 }
 
 ul li {
     list-style-type: none;
+}
+
+.licence {
+    margin-right: -45px;
+}
+
+.fa-arrow-up-from-bracket {
+    margin-left: 49%;
+    margin-top: 10px;
 }

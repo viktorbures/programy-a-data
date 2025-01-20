@@ -23,11 +23,24 @@ main {
 }
 
 .soubory {
-    margin: 20px 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 750px;
     border: 1px solid gray;
 }
 
 ul li {
     list-style-type: none;
+}
+
+.licence {
+    margin-right: -45px;
+}
+
+.fa-file {
+    margin-left: 49%;
+    margin-top: 10px;
 }

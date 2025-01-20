@@ -14,7 +14,20 @@ main {
     margin-left: 35%;
 }
 .driversjpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 750px;
-    border: 2px solid gray;
-    margin: 20px 290px;
+    border: 1px solid gray;
+}
+
+.licence {
+    margin-right: -45px;
+}
+
+.fa-docker {
+    margin-left: 49%;
+    margin-top: 10px;
 }

@@ -1,1 +1,6 @@
 Opravit top menu - nefunguje když je web víc oddálený // FIXED
+
+
+Zkusit vytvořit dvousloupcový layout stránky
+Přepínání mezi dark/light theme
+Na první stránce použít flexbox

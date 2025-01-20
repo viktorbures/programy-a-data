@@ -17,9 +17,9 @@ main {
     border: 1px solid grey;
 }
 
-.arrow {
+/* .arrow {
     margin-bottom: 30px;
-}
+} */
 
 .mainpage a {
     text-decoration: none;
@@ -41,6 +41,14 @@ main {
 }
 
 
+.licence {
+    margin-right: -45px;
+}
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
