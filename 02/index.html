@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>02 - Operační systémy</title>
     <link rel="stylesheet" href="./os.css">
+    <link rel="stylesheet" href="../css/darktheme.css">
     <link rel="stylesheet" href="../css/headers.css">
     <link rel="stylesheet" href="../css/footers.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,6 +16,7 @@
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
       <span class="fs-4 headertext">Programy a data</span>
+      <button onclick="toggleDarkMode(event)" class="buttontheme text-body-primary">Přepnutí režimu</button>
     </a>
     
     <ul class="nav nav-pills navbar headermenu">
@@ -110,9 +112,10 @@
       </a>
       
       <ul class="nav col-md-4 justify-content-center footermenu">
-        <li class="text-body-secondary uvodnifooter">Programy a data<i class="fa-solid fa-computer fa-lg"></i></li>
+        <li class="text-body-secondary uvodnifooter">Programy a data<i class="fa-solid fa-computer fa-lg"></i><button onclick="toggleDarkMode(event)" class="buttontheme text-body-primary">Přepnutí režimu</button></li>
       </ul>
     </footer>
    
+<script src="../jss/themes.js"></script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode main {
+    background-color: #1e1e1e;
+    border-color: white;
+}
+
+.dark-mode .nav-link {
+    color: white !important;
+}
+
+.dark-mode .nav-link:hover, .dark-mode .nav-link.active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.dark-mode .mainpage a {
+    color: white;
+    border-color: white;
+}
+
+.dark-mode .mainpage a:hover {
+    background-color: white;
+    color: black;
+}
+
+.footername, .footermenu, .uvodnifooter {
+    color: black;
+}
+
+.dark-mode .footername, .dark-mode .footermenu, .dark-mode .uvodnifooter {
+    color: white !important;
+}
+
+.headertext, .uvodniheader {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.dark-mode .headertext, .dark-mode .uvodniheader {
+    color: white !important;
+}
+
+.dark-mode .link-body-emphasis img {
+    filter: invert(1);
+}
+
+.buttontheme {
+    font-family: inherit; /* Match the font with the rest of the website */
+    border: 1px solid black;
+    border-radius: 2%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.dark-mode .nav-link.active {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
