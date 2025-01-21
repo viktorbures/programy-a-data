@@ -3,93 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Úvodní stránka</title>
-    <link rel="stylesheet" href="css/uvodni.css">
-    <link rel="stylesheet" href="css/darktheme.css">
-    <link rel="stylesheet" href="css/headers.css">
-    <link rel="stylesheet" href="css/footers.css">
+    <title>02 - Operační systémy</title>
+    <link rel="stylesheet" href="./os.css">
+    <link rel="stylesheet" href="../css/darktheme.css">
+    <link rel="stylesheet" href="../css/headers.css">
+    <link rel="stylesheet" href="../css/footers.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-  </head>
+</head>
 <body>
-
-    <!-- NAVBAR TOP -->
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          <span class="fs-4 headertext">Programy a data</span>
-          <button onclick="toggleDarkMode(event)" class="buttontheme text-body-primary">Přepnutí režimu</button>
-        </a>
-        
-        <ul class="nav nav-pills navbar headermenu">
-          <li class="nav-item nav-item1"><a href="index.html" class="nav-link active uvodniheader" aria-current="page">Úvodní stránka</a></li>
-          <li class="nav-item"><a href="./01/index.html" class="nav-link">Programové soubory</a></li>
-          <li class="nav-item"><a href="./02/index.html" class="nav-link">Operační systémy</a></li>
-          <li class="nav-item ovladace"><a href="./03/index.html" class="nav-link">Ovladače</a></li>
-          <li class="nav-item"><a href="./04/index.html" class="nav-link">Aplikační software</a></li>
-          <li class="nav-item"><a href="./05/index.html" class="nav-link">Instalace</a></li>
-          <li class="nav-item licence"><a href="./06/index.html" class="nav-link">Licence</a></li>
-        </ul>   
-      </header>
-      <!-- NAVBAR TOP -->
-
-   <main>
-    <h1>Programy a data</h1>
-    <br>
-    <p>Úvodní stránka</p>
-    <i class="fa-solid fa-2x fa-house"></i>
-    <hr>
-    <h2>Obsah stránek</h2>  
-    <br>
-
-    <img src="./img/obsah.jpg" alt="Obrázek stránky" class="obsah">
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-down arrow" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-      </svg> -->
-    
-
-    <div class="mainpage">
-        <div class="column">
-            <a href="./01/index.html" class="styled-link"><h5>Programové a datové soubory</h5></a>
-            <p class="pUnderText">Soubory a adresáře, cesty, programové soubory, datové soubory</p>
-            <br>
-            <a href="./02/index.html" class="styled-link"><h5>Operační systémy</h5></a>
-            <p class="pUnderText">Systémové programy, aplikační rozhraní, rozdělení</p>
-            <br>
-            <a href="./03/index.html" class="styled-link"><h5>Ovladače</h5></a>
-            <p class="pUnderText">Ovladače zařízení, Firmware, utility</p>
-            <br>
-        </div>
-        <div class="column">
-            <a href="./04/index.html" class="styled-link"><h5>Aplikační software</h5></a>
-            <p class="pUnderText">Kancelářské balíky, grafické aplikace, Malware, databázové systémy</p>
-            <br>
-            <a href="./05/index.html" class="styled-link"><h5>Instalace programů</h5></a>
-            <p class="pUnderText">Instalace a odinstalace, lokalizace, registrace</p>
-            <br>
-            <a href="./06/index.html" class="styled-link"><h5>Softwarové licence</h5></a>
-            <p class="pUnderText">Multilicence, komerční software, demoverze, Opensource</p>
-        </div>
-    </div>
-    
-    
-
-   </main>
-
-
-   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
- 
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4 headertext">Programy a data</span>
+      <button onclick="toggleDarkMode(event)" class="buttontheme text-body-primary">Přepnutí režimu</button>
     </a>
     
-    <ul class="nav col-md-4 justify-content-center footermenu">
-      <li class="text-body-secondary uvodnifooter">Programy a data<i class="fa-solid fa-computer fa-lg"></i></li>
-    </ul>
-  </footer>
- 
- 
-  <script src="../jss/themes.js"></script>
+    <ul class="nav nav-pills navbar headermenu">
+      <li class="nav-item nav-item1"><a href="../index.html" class="nav-link active uvodniheader text-decoration-none" aria-current="page">Úvodní stránka</a></li>
+      <li class="nav-item"><a href="../01/index.html" class="nav-link">Programové soubory</a></li>
+      <li class="nav-item"><a href="../02/index.html" class="nav-link text-decoration-underline">Operační systémy</a></li>
+      <li class="nav-item ovladace"><a href="../03/index.html" class="nav-link">Ovladače</a></li>
+      <li class="nav-item"><a href="../04/index.html" class="nav-link">Aplikační software</a></li>
+      <li class="nav-item"><a href="../05/index.html" class="nav-link">Instalace</a></li>
+      <li class="nav-item licence"><a href="../06/index.html" class="nav-link">Licence</a></li>
+    </ul>   
+  </header>
+
+    <main>
+    
+    <h2 id="operacnisystemy">Operační systémy</h2>
+
+    <i class="fa-brands fa-windows fa-2x"></i>
+
+    <img src="../img/os.jpg" alt="Operační systémy" class="osimg">
+
+
+    <h5>Programové vybavení</h5>
+    <p><i>(Software)</i> je podmínkou využití technického vybavení 
+        (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro 
+        konkrétní hardware. V okamžiku, kdy počítače začaly být produkovány ve vět
+        ších sériích, objevila se i potřeba vývoje speciálních systémových programů, 
+        které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh 
+        aplikací, tj. programů určených pro konkrétní účely.
+    </p>
+
+    <h5>
+        Základní vybavení
+    </h5>
+    <p>
+        Základním programovým vybavením počítačů (a jim podobných zaří
+        zení) jsou operační systémy (OS - Operation System). Jejich nejdůle
+        žitější funkcí je zajištění řízení hardware. To má na starosti jádro sys
+        tému, které tvoří subsystémy pro správu procesoru, paměti, diskových 
+        médií a dalších zařízení.  Jádro pro své operace vyžaduje instalaci 
+        ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje 
+        technické vybavení běžícím procesům.
+    </p>
+
+    <h5>Rozhraní</h5>
+    <p>
+        Nezbytnou součástí operačních systémů je aplikační rozhraní (API - 
+        Application Programming Interface), které nabízí programátorům 
+        prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhra
+        ní slouží k ovládání OS a k spouštění aplikací. Zatímco starší OS se 
+        ovládaly častěji prostřednictvím příkazového řádku (CLI - Command 
+        Line Interface), moderní systémy poskytují grafické uživatelské roz
+        hraní (GUI - Graphic User Interface) založené na oknech a grafických 
+        prvcích
+    </p>
+
+    <p>
+        <i>Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém 
+        UNIX, který se od 70. let používal v sálových počítačích i minipočítačích. 
+        Jeho principy využily i další OS. V 80. letech minulého století si vzájemně 
+        konkurovaly systémy firmy Microsoft (MS DOS),  instalované na počítačích 
+        IBM PC, a firmy Apple (Mac OS), která rozvinula myšlenky vývojářů spo
+        lečnosti Xerox a začala jako první používat grafické uživatelské rozhraní. To  
+        se stalo také základem MS Windows, jenž hrál prim především na přelomu 
+        tisíciletí. V té době už získával stále větší popularitu volně šiřitelný systém 
+        Linux, pojmenovaný podle svého tvůrce Linuse Torvaldse a staršího vzoru 
+        UNIXu. Zatímco operační systémy Windows dominují především na osob
+        ních počítačích v domácnostech i kancelářích, různé linuxové distribuce  
+        jsou velmi často instalovány na síťových serverech.</i> </p>
+        
+        <h5>Dělení</h5>
+        <p>
+            Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou urče
+        ny. Existují  systémy pro síťové servery (např. MS Windows 2012 Server, Li
+        nux, Unix), pro běžné osobní počítače - desktopy, notebooky, netbooky (např. 
+        MS Windows, Linux Ubuntu, OS X), pro mobilní zařízení (Android, Symbian, 
+        Windows Phone, iOS) i speciální RTOS (Real-Time Operating System - systé
+        my reálného času), které zajišťují provoz „chytrých“ zařízení, jakými jsou robo
+        tické kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních 
+        stanicích nebo jednotky pro řízení různých průmyslových procesů. Zatímco 
+        u desktopového systému je možné pozdržet dokončení některých operací a 
+        provádět paralelně jiné operace, v případě RTOS je nezbytné provádět opera
+        ce bez prodlevy a s vysokou spolehlivostí v reálném čase
+        </p>
+
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary footername"> &copy; 2025 - <b>Viktor Bureš</b>, IT1</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <p><img src="../img/skola-logo.png" alt="Logo školy"></p>
+      </a>
+      
+      <ul class="nav col-md-4 justify-content-center footermenu">
+        <li class="text-body-secondary uvodnifooter">Programy a data<i class="fa-solid fa-computer fa-lg"></i></li>
+      </ul>
+    </footer>
+   
+<script src="../jss/themes.js"></script>
 </body>
 </html>
