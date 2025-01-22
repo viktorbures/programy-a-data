@@ -1,5 +1,6 @@
 Opravit top menu - nefunguje když je web víc oddálený // FIXED
 Zkusit vytvořit dvousloupcový layout stránky // HOTOVO
 Přepínání mezi dark/light theme // HOTOVO
+Na úvodní stránce nejde klikat přepnutí režimu a nejde vidět logo školy ve footeru // FIXED
 
-Na úvodní stránce nejde klikat přepnutí režimu a nejde vidět logo školy ve footeru
+Tečky na konce vět

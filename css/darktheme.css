@@ -60,20 +60,22 @@
 }
 
 .buttontheme {
-    font-family: inherit; /* Match the font with the rest of the website */
-    border: 1px solid black;
-    border-radius: 5px; /* Add border radius for rounded corners */
-    padding: 5px 10px; /* Add padding for better spacing */
-    margin-left: 20px;
-    margin-top: 5px;
-    background-color: #f8f9fa; /* Light background color */
-    color: black; /* Text color */
+    display: block;
+    font-family: inherit; 
+    font-size: 15px; 
+    border-radius: 5px; 
+    padding: 0 8px; 
+    margin-right: 170px;
+    margin-top: 0; 
+    margin-bottom: 0;
+    background-color: #f8f9fa; 
+    color: black; 
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .buttontheme:hover {
-    background-color: #e2e6ea; /* Slightly darker background on hover */
-    color: black; /* Text color on hover */
+    background-color: #e2e6ea !important; 
+    color: black !important; 
 }
 
 .dark-mode .nav-link.active {
@@ -84,3 +86,4 @@
     box-shadow: none !important;
     transition: color 0.3s ease;
 }
+
