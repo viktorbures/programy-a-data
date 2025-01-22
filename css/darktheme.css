@@ -1,59 +1,79 @@
 .dark-mode {
     background-color: #121212;
     color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode main {
     background-color: #1e1e1e;
     border-color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .dark-mode .nav-link {
     color: white !important;
+    transition: color 0.3s ease;
 }
 
 .dark-mode .nav-link:hover, .dark-mode .nav-link.active {
     background-color: white !important;
     color: black !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode .mainpage a {
     color: white;
     border-color: white;
+    transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .dark-mode .mainpage a:hover {
     background-color: white;
     color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .footername, .footermenu, .uvodnifooter {
     color: black;
+    transition: color 0.3s ease;
 }
 
 .dark-mode .footername, .dark-mode .footermenu, .dark-mode .uvodnifooter {
     color: white !important;
+    transition: color 0.3s ease;
 }
 
 .headertext, .uvodniheader {
     background-color: transparent !important;
     color: black !important;
+    transition: color 0.3s ease;
 }
 
 .dark-mode .headertext, .dark-mode .uvodniheader {
     color: white !important;
+    transition: color 0.3s ease;
 }
 
 .dark-mode .link-body-emphasis img {
     filter: invert(1);
+    transition: filter 0.3s ease;
 }
 
 .buttontheme {
     font-family: inherit; /* Match the font with the rest of the website */
     border: 1px solid black;
-    border-radius: 2%;
+    border-radius: 5px; /* Add border radius for rounded corners */
+    padding: 5px 10px; /* Add padding for better spacing */
     margin-left: 20px;
     margin-top: 5px;
+    background-color: #f8f9fa; /* Light background color */
+    color: black; /* Text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttontheme:hover {
+    background-color: #e2e6ea; /* Slightly darker background on hover */
+    color: black; /* Text color on hover */
 }
 
 .dark-mode .nav-link.active {
@@ -62,5 +82,5 @@
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
+    transition: color 0.3s ease;
 }
-
